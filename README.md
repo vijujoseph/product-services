@@ -3,9 +3,9 @@
 ### Requirement
 two separate microservices serving this purpose:
 -   one to read products data from a CSV file (Importer) and wrap them into a JSON
-object for the other service to consume ;
+object for the other service to consume.
 -   the second to save and maintain the product data received and provide some
-statistics about them (Aggregator) .
+statistics about them (Aggregator).
 
 -   The first service (the Importer ) would be a simple stateless service that reads a CSV
 file containing all the data regarding products and sends them as messages on a
