@@ -15,14 +15,14 @@ create a new product if it doesn’t exist in its database, and update it if it 
 there.
 
 ## Note
--   Completed cration of both micro services for importing and aggregating
+-   Completed creation of both microservices for importing and aggregating respectively
 -   Coding is in progress for adding message broker to pass data from importer
-service to aggregator services. It will be submitted by today EOD.
+service to aggregator services. It will be comitted at the earliest.
 
 ## Solution
 -   First microservices (product-importer-service) parse the excel for data.
 You can add more test data by running the test case -ProductImporterServiceApplicationTests
-Before executing the test case, add the the respective CSV file under resources/template/dataExample1.csv
+. Before executing the test case, add the the respective CSV file under resources/template/dataExample1.csv
 Then execute the data
     * At the time of starting up the application, system default load 1000 products from
     the CSV dataExample.csv.
